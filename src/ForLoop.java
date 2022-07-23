@@ -7,7 +7,7 @@ public class ForLoop {
             System.out.println(CatBoard[i]);
 
         }
-        for (String cat: CatBoard){
+        for (String cat : CatBoard) {
             System.out.println(cat);
         }
     }
