@@ -1,13 +1,11 @@
-public class ForLoop {
-    public static void main(String[] args) {
-        int x = 3;
-        int y;
-        System.out.println(x++);
-        System.out.println(++x);
-        y = x++;
-        System.out.println(y);
-        y = ++x;
-        System.out.println(y);
-        System.out.println(++y);
+    public class ForLoop {
+        public static void main(String[] args) {
+ // komentarz
+            for (int i = 0; i <= 10; i++) {
+                System.out.println(i);
+                if (i == 5) {
+                    System.out.println("kotek");
+                }
+            }
     }
 }
