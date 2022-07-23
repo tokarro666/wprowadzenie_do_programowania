@@ -1,11 +1,11 @@
-    public class ForLoop {
-        public static void main(String[] args) {
- // komentarz
-            for (int i = 0; i <= 10; i++) {
-                System.out.println(i);
-                if (i == 5) {
-                    System.out.println("kotek");
-                }
-            }
+public class ForLoop {
+    public static void main(String[] args) {
+        // komentarz
+
+        String[] CatBoard = new String[]{"Bojkot", "Łoskot", "Warkot", "Charkot", "Kotylion"};
+        for (int i = 0; i < CatBoard.length; i++) {
+            System.out.println(CatBoard[i]);
+
+        }
     }
 }
